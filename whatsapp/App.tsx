@@ -23,7 +23,7 @@ const App = () => {
 
         <View>
             <Text style={styles.enviada}>Olá,tudo bem?</Text>
-            </View>  
+            </View>
             <View>
             <Text style={styles.title}>
                 Tudo certo e você?
@@ -45,22 +45,19 @@ const App = () => {
         <Text style={styles.enviada}> Vou assistir hoje</Text>
     </View>
     <View style={styles.inputBar}>
-      {/* Ícone de "Adicionar" */}
-      <TouchableOpacity style={styles.iconButton}>
+    <TouchableOpacity style={styles.iconButton}>
         <Ionicons name="add" size={24} color="#ffffff" />
-      </TouchableOpacity>
+    </TouchableOpacity>
 
-      {/* Campo de entrada de texto */}
-      <TextInput
+    <TextInput
         style={styles.input}
         placeholder="Digite uma mensagem"
         placeholderTextColor="#aaaaaa"
-      />
+    />
 
-      {/* Ícone de "Enviar mensagem" */}
-      <TouchableOpacity style={styles.iconButton}>
+    <TouchableOpacity style={styles.iconButton}>
         <MaterialIcons name="send" size={24} color="#ffffff" />
-      </TouchableOpacity>
+    </TouchableOpacity>
     </View>
         </ImageBackground>
         </View>
