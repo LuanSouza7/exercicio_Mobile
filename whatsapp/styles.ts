@@ -2,7 +2,6 @@
  *   Copyright (c) 2024 
  *   All rights reserved.
  */
-
 import { StyleSheet } from 'react-native';
 
 const styles = StyleSheet.create({
@@ -72,48 +71,6 @@ title: {
     marginBottom: 10,
 },
 
-enviada2: {
-    marginBottom: 10,
-    backgroundColor:'#09512d',
-    color: '#fff',
-    fontSize: 16,
-    padding: 10,
-    borderRadius: 10,
-    margin:10,
-    marginLeft:150,
-},
-
-title2: {
-    backgroundColor: '#202C33',
-    color: '#fff',
-    fontSize: 16,
-    padding: 10,
-    borderRadius: 10,
-    margin:10,
-    marginRight:190,
-},
-
-enviada3: {
-    marginBottom: 10,
-    backgroundColor:'#09512d',
-    color: '#fff',
-    fontSize: 16,
-    padding: 10,
-    borderRadius: 10,
-    margin:10,
-    marginLeft:150,
-},
-
-title3: {
-    backgroundColor: '#202C33',
-    color: '#fff',
-    fontSize: 16,
-    padding: 10,
-    borderRadius: 10,
-    margin:10,
-    marginRight:190,
-},
-
 inputBar: {
     flexDirection: 'row',
     alignItems: 'center',
@@ -121,7 +78,6 @@ inputBar: {
     paddingHorizontal: 10,
     paddingVertical: 15,
     width: "100%",
-
 },
 
 iconButton: {

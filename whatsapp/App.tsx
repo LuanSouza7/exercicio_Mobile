@@ -1,8 +1,3 @@
-/*
- *   Copyright (c) 2024 
- *   All rights reserved.
- */
-// Conversa.tsx
 import React from 'react';
 import { View, Text, Image, TextInput, ScrollView, ImageBackground, TouchableOpacity } from 'react-native';
 import { Ionicons, MaterialIcons } from '@expo/vector-icons';
@@ -42,7 +37,7 @@ const App = () => {
         <Text style={styles.title}> Então assiste Arcane</Text>
     </View>
     <View>
-        <Text style={styles.enviada}> Vou assistir hoje</Text>
+        <Text style={styles.enviada}>Blz, vou assistir hoje e te falo se gostei</Text>
     </View>
     <View style={styles.inputBar}>
     <TouchableOpacity style={styles.iconButton}>
@@ -54,7 +49,6 @@ const App = () => {
         placeholder="Digite uma mensagem"
         placeholderTextColor="#aaaaaa"
     />
-
     <TouchableOpacity style={styles.iconButton}>
         <MaterialIcons name="send" size={24} color="#ffffff" />
     </TouchableOpacity>
